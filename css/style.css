@@ -13,8 +13,11 @@ body {
 *********************************/
 
 .debug header {
-    height: 80px;
     background-color: purple;
+}
+
+.debug .topbar {
+    height: 80px;
 }
 
 .debug .box-1 {

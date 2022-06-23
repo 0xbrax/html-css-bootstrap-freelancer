@@ -4,34 +4,36 @@ body {
 
 
 
+/*************************************
+    DEBUG CLASS FOR BODY LAYOUT
+*************************************/
 
-
-
-
-/*********************************
-    DEBUG
-*********************************/
-
-.debug header {
-    background-color: purple;
+.debug header,
+.debug footer {
+    background-color: greenyellow;
 }
 
-.debug .topbar {
+.debug ._topbar {
     height: 80px;
 }
 
-.debug .box-1 {
+.debug ._box_1 {
     height: 50px;
     background-color: yellow;
     border: 5px solid black;
 }
 
-.debug .box-2 {
+.debug ._box_2 {
     height: 200px;
     background-color: orange;
     border: 5px solid black;
 }
 
-.debug .jumbotron {
+.debug ._jumbotron,
+.debug ._about {
     background-color: palevioletred;
+}
+
+.debug ._bottom_bar {
+    background-color: aqua;
 }

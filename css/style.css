@@ -56,6 +56,14 @@ header {
     color: var(--_text_semiblack);
 }
 
+._about {
+    background-color: var(--_main_color);
+}
+
+._btn_contact {
+    background-color: var(--_main_color);
+    color: var(--_text_white);
+}
 
 
 /*************************************

@@ -2,6 +2,60 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
+:root {
+    --_bar_color: #2c3e50;
+    --_main_color: #1abc9c;
+    --_text_semiblack: #333333;
+    --_text_white: #FFFFFF;
+}
+
+
+
+
+header {
+    background-color: var(--_bar_color);
+}
+
+._jumbotron {
+    background-color: var(--_main_color);
+    margin-top: 72px;
+}
+
+#avatar {
+    height: 300px;
+}
+
+._star_line_light i,
+._star_line_dark i {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 15px;
+}
+
+._star_line_light::before,
+._star_line_light::after {
+    display: inline-block;
+    content: '';
+    background-color: var(--_text_white);
+    height: 2px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+._star_line_dark::before,
+._star_line_dark::after {
+    display: inline-block;
+    content: '';
+    background-color: var(--_text_semiblack);
+    height: 2px;
+    width: 100px;
+    vertical-align: middle;
+}
+
+._card {
+    color: var(--_text_semiblack);
+}
+
 
 
 /*************************************
